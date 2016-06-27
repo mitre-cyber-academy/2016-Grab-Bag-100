@@ -11,6 +11,8 @@ The use should then look up the conditions required to see the multiplexer to th
 The goal is to connect both multiplexers together and make the temperature sensor read "-1" which makes the heater work without stopping
 This is obtained with the following connections
 
+MCA-20A5A578BQ
+
 
 D0: HIGH
 D1: HIGH
