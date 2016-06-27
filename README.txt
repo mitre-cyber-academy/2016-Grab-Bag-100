@@ -1,13 +1,13 @@
 ----------Setup---------------
-point /home/HTML/ to the directory of the HTML folder included in this repository. 
-docker run -p 80:80 -p 443:443 -v /home/HTML/ -d eboraas/apache
+point /home/HTML/ to the directory of the HTML folder included in this repository.
+MM197454-PC:2016_heating_challenge kfagan$ docker run -p 80:80 -p 443:443 -v /Your/Full/Path/To/2016_heating_challenge/:/var/www/html -d eboraas/apache
 
 ----------Solution---------------
-Under the folder HTMLOUT click the index.html and open it with a browser. 
+Under the folder HTMLOUT click the index.html and open it with a browser.
 The goal is to overheat the heating coils and cause the webpage to provide a "error code" which so happens to be the MCA flag
 The first step the user must take is to look up the main component, the CD74HC4067 multiplexer, online and obtain a datasheet.
-The user has control of the digital pins on the microcontroller that are attached to the multiplexer. 
-The use should then look up the conditions required to see the multiplexer to the desired channel.  
+The user has control of the digital pins on the microcontroller that are attached to the multiplexer.
+The use should then look up the conditions required to see the multiplexer to the desired channel.
 The goal is to connect both multiplexers together and make the temperature sensor read "-1" which makes the heater work without stopping
 This is obtained with the following connections
 
