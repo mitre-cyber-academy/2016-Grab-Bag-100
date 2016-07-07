@@ -13,6 +13,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\GenFlag.gml</script>
+    <script>scripts\GenFlag_2.gml</script>
     <script>scripts\mouse_pos.gml</script>
   </scripts>
   <fonts name="fonts">

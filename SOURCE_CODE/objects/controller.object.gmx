@@ -119,9 +119,19 @@ if(tmp &gt; 75 )
 if(ControlHeater == 1){ReadTemp+=(Coiltmp/80000)}else{ReadTemp-=.001} if(ReadTemp &lt; 46.3){ReadTemp = 46.3}
 
 draw_text_color(10,room_height-20,"Current Temperature: "+string(tmp)+" and air is set to 75",c_black,c_black,c_black,c_black,1)
-if(Coiltmp &gt; 1100)
+if(Coiltmp &gt; 1100 &amp;&amp; Coiltmp &lt; 9000)
 {
 draw_text_color(room_width-200,room_height-40,"Coil Temp Critical!!!!#Error "+string(GenFlag()) ,c_black,c_black,c_black,c_black,1)
+}
+if(Coiltmp &gt; 9000)
+{
+draw_text_color(room_width-230,room_height-40,"You Really Waited This long?#AWARD "+string(GenFlag_2()) ,c_black,c_black,c_black,c_black,1)
+if(Coiltmp &lt; 10500)
+{
+if(Coiltmp &lt; 10000){room_message  = "ITS OVER 9000!!!"}
+else{room_message+="AH AH AH AH #" }
+}
+
 }
 
 
