@@ -11,7 +11,7 @@ The use should then look up the conditions required to see the multiplexer to th
 The goal is to connect both multiplexers together and make the temperature sensor read "-1" which makes the heater work without stopping
 This is obtained with the following connections
 
-key for completing challenge. Shown when temperature is 1100 MCA-20A5A578BQ
+key for completing challenge. Shown when temperature is 1100 MCA-20A5A578
 bonus key for waiting so long, shown once temperature is over 9000 MCA-IP81S29EQK
 
 
