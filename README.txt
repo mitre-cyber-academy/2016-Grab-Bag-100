@@ -12,7 +12,7 @@ The goal is to connect both multiplexers together and make the temperature senso
 This is obtained with the following connections
 
 key for completing challenge. Shown when temperature is 1100 MCA-20A5A578
-bonus key for waiting so long, shown once temperature is over 9000 MCA-IP81S29EQK
+bonus key for waiting so long, shown once temperature is over 9000 MCA-52C881C6
 
 
 D0: HIGH
