@@ -1,6 +1,7 @@
 ----------Setup---------------
 point /home/HTML/ to the directory of the HTML folder included in this repository.
-MM197454-PC:2016_heating_challenge kfagan$ docker run -p 80:80 -p 443:443 -v /Your/Full/Path/To/2016_heating_challenge/:/var/www/html -d eboraas/apache
+
+    $ docker run -p 80:80 -p 443:443 -v `pwd`/2016_heating_challenge/HTML:/var/www/html -d eboraas/apache
 
 ----------Solution---------------
 Under the folder HTMLOUT click the index.html and open it with a browser.
@@ -12,7 +13,6 @@ The goal is to connect both multiplexers together and make the temperature senso
 This is obtained with the following connections
 
 key for completing challenge. Shown when temperature is 1100 MCA-20A5A578
-bonus key for waiting so long, shown once temperature is over 9000 MCA-52C881C6
 
 
 D0: HIGH
