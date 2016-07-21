@@ -1,7 +1,7 @@
 Setup
 =====
 
-point /home/HTML/ to the directory of the HTML folder included in this repository.
+Navigate to the root folder of this repository and run the following command
 
     $ docker run -p 80:80 -p 443:443 -v `pwd`/2016_heating_challenge/HTML:/var/www/html -d eboraas/apache
 
