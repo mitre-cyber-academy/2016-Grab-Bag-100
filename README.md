@@ -1,9 +1,13 @@
-----------Setup---------------
+Setup
+=====
+
 point /home/HTML/ to the directory of the HTML folder included in this repository.
 
     $ docker run -p 80:80 -p 443:443 -v `pwd`/2016_heating_challenge/HTML:/var/www/html -d eboraas/apache
 
-----------Solution---------------
+Solution
+========
+
 Under the folder HTMLOUT click the index.html and open it with a browser.
 The goal is to overheat the heating coils and cause the webpage to provide a "error code" which so happens to be the MCA flag
 The first step the user must take is to look up the main component, the CD74HC4067 multiplexer, online and obtain a datasheet.
@@ -25,7 +29,3 @@ D6: HIGH
 D7: LOW
 D8: LOW
 D9: LOW
-
-
-
--------------------------------------
