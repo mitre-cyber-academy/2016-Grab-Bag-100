@@ -3,7 +3,7 @@ Setup
 
 Navigate to the root folder of this repository and run the following command
 
-    $ docker run -p 80:80 -p 443:443 -v `pwd`/2016_heating_challenge/HTML:/var/www/html -d eboraas/apache --restart unless-stopped
+    $ docker run -p 80:80 -p 443:443  --restart unless-stopped -v `pwd`/2016_heating_challenge/HTML:/var/www/html -d eboraas/apache
 
 Solution
 ========
